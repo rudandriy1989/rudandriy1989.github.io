@@ -1,14 +1,12 @@
 fail_on_violations: true
 
 scss:
-  config_file: .scss-lint.yml
-
-jshint:
   enabled: false
 
-eslint:
-  config_file: js/.eslintrc.json
-  ignore_file: .houndignore
+javascript:
+  enabled: true
+  config_file: js/.jshintrc
 
-ruby:
-  enabled: false
+jscs:
+  enabled: true
+  config_file: js/.jscsrc
