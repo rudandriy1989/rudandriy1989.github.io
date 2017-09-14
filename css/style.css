@@ -1,8 +1,11 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto.ttf")}
+
 body{
     font-size: 16px;
     color: #26272D;
-    font-family: 'Roboto', sans-serif;
-    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto";
     text-align: center;
     vertical-align: center;
     word-wrap:break-word;}
@@ -12,9 +15,7 @@ a{
     color:#26272D;}
 
 a:hover{
-    text-decoration: none;
-    color:#267DF4;}
-
+    text-decoration: none;}
 
 ul {
     list-style-type: none;
@@ -29,8 +30,6 @@ li {
     padding-top:10px;
     font-weight: 700;
     color:grey;}
-
-
 
 h1{
     font-size: 40px;
@@ -69,64 +68,35 @@ col-xs-4{
 .hidden-menu {
     display: block;
     position: fixed;
-    padding-top: 50px;
-    padding-left: 10px;
+    padding: 10px;
+    margin: 0;
     box-sizing: border-box;
     width: 300px;
-    background-color: black;
+    background-color: blue;
+    color:white;
     height: 100%;
     top: 0;
     left: -300px;
-    transition: left 1s;
-    z-index: 2;
-    overflow: auto;
-}
-
-
-
-.hidden-menu li a{
-    color: white;
-}
-.hidden-menu li a:hover{
-    color: #267DF4;
-}
-
-.hidden-menu .btn-blue:hover{
-    color: white;
-}
+    transition: left .5s;
+    z-index: 2;}
 
 .hidden-menu-ticker {
   display: none;}
 
-
+.btn-menu {
+    color: black;
+    cursor: pointer;
+    z-index: 0;}
 
 .hidden-menu-ticker:checked ~ .hidden-menu {
   left: 0px;
 }
-
 .btn-blue{
-    margin-top:-10px;
     width: 110px;
-    height: 38px;
+    height: 40px;
     border-radius: 100px;
     background-color:#267DF4;
     color:white;}
-
-
-.btn-blue:visited {
-   color:white;
-}
-.btn-blue:hover {
-   color:white;
-}
-
-
-.more-info a{
-    color:white;
-}
-.slide_out_menu_footer{
-       margin-top: 300px;
-  }
                 /*end navbar-fixed-top*/
 
                     /*start section_1*/
@@ -205,14 +175,6 @@ col-xs-4{
 .button_3{
     padding:0px;
     margin:0px;}
-
-.btn-primary:hover{
-    background: #267DF4;
-}
-
-.btn-primary:visited{
-    background: #267DF4;
-}
                     /*end section_3*/
                         
                     /*start section_4*/
@@ -313,22 +275,14 @@ col-xs-4{
 
                 /*start section_6*/
               /*------carousel--------*/
-.carousel-control,
-.carousel-control:hover {
+.carousel-control,.carousel-control:hover {
     filter: none;
     text-shadow: none;
     color:grey;
     font-weight: 100;}
 
-.carousel-control.left,
-.carousel-control.right {
+.carousel-control.left,.carousel-control.right {
     background-image: none;}
-
-.semi{
-    opacity: 0.5;
-    border-radius: 300px;
-    width: 7%;
-    height: 7%;}
 
 .carousel .item {
      -webkit-transition: 2s;
@@ -337,13 +291,18 @@ col-xs-4{
      transition: 2s;
      left: 0 !important;}
 
- .carousel .next.left,
- .carousel .prev.right {
-    opacity: 1;
-    z-index: 1;}
+ .carousel .next.left,.carousel .prev.right {
+ opacity: 1;
+ z-index: 1;}
  
  .carousel .carousel-control {
-    z-index: 1000;}
+ z-index: 1000;}
+
+.semi{
+    opacity: 0.5;
+    border-radius: 300px;
+    width: 7%;
+    height: 7%;}
 
 .round{
     -webkit-border-radius: 10000px;
@@ -353,8 +312,8 @@ col-xs-4{
 /*-----rating---------*/
 
 .star{
-    width:30px;
-    height:30px;}
+    width:2%;
+    height:2%;}
 
 
                     /*end section_6*/
@@ -438,14 +397,10 @@ color: grey;
     margin: 0 auto;
     height:40px;
     width: 210px;
-    background-color: #267DF4;
+    background-color: blue;
     border-radius: 300px;
     border:none;
 }
-.btn_starter:hover{
-    color:white;
-}
-
                     /*section_7*чекбокс*/
 
 #payt2 {
@@ -480,10 +435,7 @@ color: grey;
     transition: .5s;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    border-radius: 100px;
-   -webkit-box-shadow: 1px 0px 42px -3px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 0px 42px -3px rgba(0,0,0,0.75);
-box-shadow: 1px 0px 42px -3px rgba(0,0,0,0.75);}
+    border-radius: 100px;}
 
 #payt2:checked ~ [for="payt2"]:after {
     left: 125px;}
@@ -553,5 +505,5 @@ box-shadow: 1px 0px 42px -3px rgba(0,0,0,0.75);}
     }
     
 }
-@media screen and (max-width:321px){}
-@media screen and (max-width:481px){}
+ @media screen and (max-width:321px){
+      @media screen and (max-width:481px){
