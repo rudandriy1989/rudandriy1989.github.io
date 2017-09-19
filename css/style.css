@@ -76,13 +76,26 @@ h1{
     z-index: 2;
     overflow: auto;
 }
+.socials a{
+    color: white;
+    padding:10px;
+}
 
-.hidden-menu li a{
+.socials a:hover{
+    color: #267DF4;
+}
+
+.hidden-menu li,p a{
     color: white;
 }
 
-.hidden-menu li a:hover{
+.hidden-menu li,p a:hover{
     color: #267DF4;
+}
+
+.logo_1 {
+    margin-right: 70px;
+    margin-left: 15px;
 }
 
 .hidden-menu .btn-blue{
@@ -96,12 +109,7 @@ h1{
 
 .hidden-menu .btn-menu {
     padding-bottom:40px;
-}
-
-.hidden-menu .btn-menu {
-
     background-color: black;
-   
 }
 
 .hidden-menu .btn-menu i {
@@ -112,17 +120,18 @@ h1{
 }
 
 .hidden-menu-ticker {
-  display: none;}
+    display: none;}
 
 .hidden-menu-ticker:checked ~ .hidden-menu {
-  left: 0px;
+    left: 0px;
 }
 
 .btn-blue{
-    padding-top: 7px;
-    margin-top: -8px;
+    position: relative;
+    padding-top: 9px;
+    margin-top: -7px;
     width: 130px;
-    height: 40px;
+    height: 38px;
     border-radius: 100px;
     background-color:#267DF4;
     color:white;}
@@ -160,10 +169,12 @@ h1{
      padding:0px 20px;
 }
 
-
-
-
-                /*end navbar-fixed-top*/
+.checkbox{
+    width:60px;
+    float:left;
+    margin:0px;
+    padding:0px;
+}
 
                     /*start section_1*/
 #section_1{
@@ -610,6 +621,28 @@ h1{
                 /*end footer*/
 
 
+
+
+@media only screen and (max-width:1170px){   
+    .image-list{
+        transform:translateX(-22%);
+    }
+   .Starter, .Pro {
+       width: 370px;
+       margin-left: 0px;
+    }  
+    
+    .navbar-fixed-top .col-xs-4:last-child {
+        display: none;
+    }
+    .navbar-fixed-top .col-xs-4 ul li a:first-child {
+        display: none;
+    }
+     .slide_out_menu_footer{
+         margin-top: 40%;
+    }
+} 
+
 @media only screen and (max-width:1000px){
     .Starter, .Pro {
         width: 250px;}
@@ -622,38 +655,18 @@ h1{
         margin: 0px;}
     
      .iphone-feature{
-    position: relative;}
+        position: relative;}
     
     .iphone-feature_wrap{
-    padding-top:50px;}
-    
-  #section_3 {
-    margin-bottom: 100px;}
+        padding-top:50px;}
+
+    #section_3 {
+        margin-bottom: 100px;}
     
     .image-list{
-      transform:translateX(-22%);}
-    
-  
-  
-    .navbar-fixed-top .col-xs-4 li:nth-child(2) {
-      display: none;}
-  
-    
-    
-    
+        transform:translateX(-22%);}
 } 
 
-@media only screen and (max-width:1170px){   
-    .image-list{
-        transform:translateX(-22%);
-}
-    
-   .Starter, .Pro {
-       width: 370px;
-       margin-left: 0px;}  
-    
-   
-} 
 
 
 @media only screen and (max-width:980px){   
@@ -664,13 +677,5 @@ h1{
 @media only screen and (max-width:620px){   
     .image-list{
         transform:translateX(-32%);
-}
-    }     
-@media only screen and (max-width:800px){ 
-         
-    .slide_out_menu_footer{
-        margin-top: 100px;
-  } 
-   
     }
-    
+}     
