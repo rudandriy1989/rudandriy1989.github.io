@@ -7,7 +7,9 @@ body {
     vertical-align: center;
     word-wrap:break-word;
     }
-
+p{
+    color:#8C8F94;
+}
 
 a { color:#26272D;
     outline:none !important;
@@ -35,8 +37,8 @@ li {
 
 
 h1{
-    font-size: 40px;
-    font-weight: 800;
+    font-size: 44px;
+    font-weight: 400;
 }
 
 
@@ -62,6 +64,13 @@ h1{
     box-shadow: 1px 9px 15px -9px rgba(0,0,0,0.63);
 }
 
+.navbar-fixed-top ul li i, .navbar-fixed-top ul li a{
+   font-weight: 500;
+}
+
+
+
+
 .navbar-toggle {
     width: 100%;
 }
@@ -81,6 +90,9 @@ h1{
     z-index: 2;
     overflow: auto;
 }
+
+
+
 .socials a{
     color: white;
     padding:10px;
@@ -192,8 +204,6 @@ h1{
        
 .What{
     padding-top: 202px;
-    font-size: 100px;
-    font-weight: bold;
     margin: 0 auto;} 
 
 .Sight {
@@ -222,12 +232,20 @@ h1{
                     /*start section_2*/
 
 #section_2 {
-   margin: 0px  auto 240px auto; /*Отступ от верхнего, правого, нижнего и левого края.*/
+   margin: 125px  auto 240px auto; /*Отступ от верхнего, правого, нижнего и левого края.*/
    text-align: center;
    vertical-align: middle;
-   height: auto;}
+   border-bottom: 1px solid #F4F4F4;
+    padding-bottom: 125px;}
 
-
+#section_2 h2{
+    font-weight: lighter;
+    margin: 46px  auto 46px auto; /*Отступ от верхнего, правого, нижнего и левого края.*/
+}
+#section_2 p{
+    color: #8C8F94;
+    margin: 38px  auto 38px auto;
+}
                     /*end section_2*/
 
                     /*start section_3*/
@@ -241,11 +259,12 @@ h1{
     color:white;}
 
 .iphone-feature{
+    top:-100px;
     position: absolute;
-    right: 30%;}
+    right: 15%;}
 
 .iphone-feature_wrap{
-    padding-top:270px;}
+    padding-top:px;}
 
 .button_2{
     min-width:200px;
@@ -258,14 +277,9 @@ h1{
     padding:0px;
     margin:0px;}
 
-.btn-primary:hover{
-    background: #267DF4;
-}
-
-.btn-primary:visited{
-    background: #267DF4;
-}
-                    /*end section_3*/
+.btn-primary:hover, .btn-primary:visited{
+    background: #267DF4;}
+                  /*end section_3*/
                         
                     /*start section_4*/
 
@@ -276,7 +290,8 @@ h1{
 
                     /*start section_5*/
 #section_5{
-    background-color:#F4F4F5;}
+    background-color:#F4F4F5;
+    padding-top: 145px;}
 
 .iphone-screens{
     background-color:#F4F4F5;
@@ -287,11 +302,12 @@ h1{
 
 #line{
     width:50px;
-    margin: 45px  auto 45px auto; /*Отступ от верхнего, правого, нижнего и левого края.*/
+    margin: 50px auto 45px auto; /*Отступ от верхнего, правого, нижнего и левого края.*/
     border-bottom:4px solid #267DF4;}
 
 #Landing_Screen{
-    color:#8c8f94;}
+    color:#8c8f94;
+    margin: 0px auto 45px auto;}
 
 .img-1,.img-2,.img-3,.img-4,.main-img{
     padding-top: 0px;
@@ -302,7 +318,7 @@ h1{
     box-shadow: 7px 8px 22px -13px #8C8F94;}
 
 .image-list{
-    margin: 0px  auto 180px auto; /*Отступ от верхнего, правого, нижнего и левого края.*/
+    margin: 0px  auto 200px auto; /*Отступ от верхнего, правого, нижнего и левого края.*/
     min-width: 1800px;
     display: block;
     white-space: nowrap;
@@ -702,7 +718,7 @@ h1{
 }
 
 .Subscribe{
-    border-bottom: 1px solid #8C8F94;
+    border-bottom: 1px solid #F4F4F4;
     padding-bottom: 80px;
     margin: 0px auto;}
 
@@ -745,7 +761,7 @@ h1{
 }
 
 .container_footer{
-    border-top:0.2px solid #8C8F94;
+    border-top: 1px solid #F4F4F4;
     margin-top: 130px;
 }
 
@@ -766,15 +782,14 @@ h1{
 .footer .more-info a{
     color: #267DF4;
     text-decoration: underline;
-    
 }
 .footer .made-by {
-      font-size: 9px;
-      font-weight: 700;
-      line-height: 22px;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-       margin-top:30px;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-top:30px;
 }       
 
 
