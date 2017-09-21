@@ -5,29 +5,32 @@ body {
     -webkit-font-smoothing: antialiased;
     text-align: center;
     vertical-align: center;
-    word-wrap:break-word;}
+    word-wrap:break-word;
+    }
 
 
-a {
-    text-decoration: none;
-    color:#26272D;}
+a { color:#26272D;
+    outline:none !important;
+}
 
 a:hover{
     text-decoration: none;
-    color:#267DF4;}
-
+    color:#267DF4;
+}
 
 ul {
     list-style-type: none;
     float:none;
     font-weight: 900;
-    color:grey;}
+    color:#8C8F94;
+}
 
 li {
     list-style-type: none;
     float:none;
     font-weight: 700;
-    color:grey;}
+    color:#8C8F94;
+}
 
 
 
@@ -42,10 +45,11 @@ h1{
     padding-top: 60px;
     height: auto;
     margin: 0 auto;
-    color:grey;
+    color:#8C8F94;
     background-color:white;
     -webkit-transition: all 0.3s ease;
-    transition: all 0.3s ease;}
+    transition: all 0.3s ease;
+}
 
 .navbar-fixed-top.sticky{
     background-color:white;
@@ -55,11 +59,12 @@ h1{
     margin: 0 auto;
     -webkit-box-shadow: 1px 9px 15px -9px rgba(0,0,0,0.63);
     -moz-box-shadow: 1px 9px 15px -9px rgba(0,0,0,0.63);
-    box-shadow: 1px 9px 15px -9px rgba(0,0,0,0.63);}
+    box-shadow: 1px 9px 15px -9px rgba(0,0,0,0.63);
+}
 
 .navbar-toggle {
     width: 100%;
-    }
+}
 
 .hidden-menu {
     display: block;
@@ -194,16 +199,16 @@ h1{
 .Sight {
     padding-top: 55px;
     margin: 0 auto;
-    color:grey;}
+    color:#8C8F94;}
 
 .button_1{
     height: 50px;
     margin-top: 62px;
-    border:grey;}
+    border:#8C8F94;}
 
 .btn-lg{
     color:black;
-    border:0.2px solid grey;
+    border:0.2px solid #8C8F94;
     width: auto;
     border-radius: 100px;}
 
@@ -294,7 +299,7 @@ h1{
 }
 
 .img-1,.img-2,.img-3,.img-4{
-    box-shadow: 7px 8px 22px -13px grey;}
+    box-shadow: 7px 8px 22px -13px #8C8F94;}
 
 .image-list{
     margin: 0px  auto 180px auto; /*Отступ от верхнего, правого, нижнего и левого края.*/
@@ -437,7 +442,7 @@ h1{
 }
 
 .rating-wrapper i{
-    color: grey;
+    color: #8C8F94;
     font-size: 22px;
     font-weight: lighter;
 }
@@ -448,7 +453,7 @@ h1{
 .carousel-control:hover {
     filter: none;
     text-shadow: none;
-    color:grey;
+    color:#8C8F94;
     font-weight: 100;
 }
 
@@ -500,7 +505,7 @@ h1{
 
 #section_7 {
     background-color:#F4F4F5;
-    margin: 160px  auto 70px auto;}/*Отступ от верхнего, правого, нижнего и левого края.*/
+    padding: 160px  auto 70px auto;}/*Отступ от верхнего, правого, нижнего и левого края.*/
     
 #section_7 p {
     color:#8C8F94;
@@ -518,7 +523,7 @@ h1{
 }
 .Thus{
     margin-bottom: 50px;
-    color: grey;
+    color: #8C8F94;
 }
 .Starter {
     padding-top: 65px;
@@ -559,7 +564,7 @@ h1{
 
 
 .Build{
-    color: grey;
+    color: #8C8F94;
     margin: 30px auto 60px auto;}
 
 .button_free {
@@ -581,7 +586,7 @@ h1{
 .lock{
     color: #6FC754;}
 
-#talk{
+#talk {
     color:#267DF4;
     text-decoration: underline #267DF4;}
 
@@ -690,7 +695,7 @@ h1{
 
                 /*start section_8*/
 #section_8 {
-    margin: 0px  auto 130px auto;}/*Отступ от верхнего, правого, нижнего и левого края.*/
+    margin-top: 90px;}/*Отступ от верхнего, правого, нижнего и левого края.*/
 
 #section_8 p {
     color:#8C8F94;
@@ -707,7 +712,10 @@ h1{
 
 
                  /*start footer*/
-
+.footer{
+    margin-top:90px;
+    padding-bottom: 130px;
+}
 .footer li a{
     color: #8C8F94;
 }
@@ -718,23 +726,60 @@ h1{
     color: black;
 }
 
-
-.container_footer_1{
- color: black;
+.footer .col-md-3 ul li {
+    padding:0px;
+    margin-right: 25px;
 }
+
+.footer .col-md-2 li{
+    padding:0px;
+    margin-bottom: 25px;
+    white-space: nowrap;
+}
+
+.footer #NEW {
+    color:black;
+}
+.footer #IT{
+    color: #8C8F94;
+}
+
 .container_footer{
-    border-top:0.2px solid grey;
-    padding: 40px auto 40px auto;}/*Отступ от верхнего, правого, нижнего и левого края.*/
+    border-top:0.2px solid #8C8F94;
+    margin-top: 130px;
+}
 
 .app-store-download_2{
     background-color: black;
     width:140px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
-    border-radius: 10px;}
+    border-radius: 10px;
+}
+
+.footer .more-info {
+    line-height: 24px;
+    font-size: 14px;
+    color: #8C8F94;
+    margin-top:35px;
+}
+.footer .more-info a{
+    color: #267DF4;
+    text-decoration: underline;
+    
+}
+.footer .made-by {
+      font-size: 9px;
+      font-weight: 700;
+      line-height: 22px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+       margin-top:30px;
+}       
 
 
-                /*end footer*/
+
+/*end footer*/
 
 
 
@@ -789,9 +834,6 @@ h1{
          margin-top: 40%;
     }
 } 
-
-
-
 @media only screen and (max-width:980px){   
     .image-list{
         transform:translateX(-28%);
