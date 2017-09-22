@@ -200,7 +200,8 @@ h1{
     background-size: cover;
     background-position: center center;
     overflow: hidden;
-    max-height: 1000px;}
+    max-height: 1000px;
+    }
        
 .What{
     padding-top: 202px;
@@ -225,7 +226,8 @@ h1{
 .header_iphone{
     padding-top: 55px;
     overflow:hidden;
-    position:sticky;}
+    position:sticky;
+    max-width: 100%;}
 
                     /*end section_1*/
 
@@ -484,7 +486,6 @@ h1{
 .carousel-indicators {
     top:130px;
     position:absolute;
-    width: 688px;
 }
 
 .slide_0, .slide_1, .slide_2  {
@@ -500,7 +501,7 @@ h1{
 
 
 
-.carousel-indicators .slide_0.active, .carousel-indicators .slide_1.active, .carousel-indicators .slide_2.active{
+.slide_0.active, .slide_1.active, .slide_2.active{
     -webkit-border-radius: 10000px;
     -moz-border-radius: 10000px;
     border-radius: 10000px;
@@ -526,7 +527,6 @@ h1{
 #section_7 p {
     color:#8C8F94;
 }
-
 
 .vsepole {
     padding-bottom:75px;
@@ -575,7 +575,7 @@ h1{
 }
 
 #section_7 .col-md-3, .col-md-4  {
-    padding: 0px;
+    
 }
 
 
@@ -799,26 +799,35 @@ h1{
 
 
 
-@media only screen and (max-width:1170px){   
+@media only screen and (max-width:1200px){   
     .image-list{
         transform:translateX(-22%);
     }
    .Starter, .Pro {
-       width: 370px;
-       margin-left: 0px;
+       width: 275px;
     }  
     
+    .slide_0, .slide_1, .slide_2  {
+        width: 50px;
+        height: 50px;
+        margin: 8%;
+    }
     
-   .carousel-indicators {
-    top:130px;
-    position:absolute;
-    width: auto; 
-    margin-left: -265px;
-    } 
+    #myCarousel .item {
+        padding-top:auto;
+    }
+
+    .slide_0.active, .slide_1.active, .slide_2.active{
+        width: 72px;
+        height: 72px;
+        margin: 8%;
+    }
 }
 @media only screen and (max-width:1000px){
     .Starter, .Pro {
-        width: 250px;}
+        width: 325px;
+        margin-left:auto;
+        }
     
     .navbar-fixed-top.sticky {
         background-color:white;
@@ -828,13 +837,27 @@ h1{
         margin: 0px;}
     
      .iphone-feature{
-        position: relative;}
+        position: relative;
+        max-width: 95%;
+        max-height: 95%;
+        padding-top:30px;
+    right:0%;}
     
     .iphone-feature_wrap{
-        padding-top:50px;}
+        padding-top:0px;}
 
+        #section_2 {
+        margin-top:0px;
+        margin-bottom: 50px;
+        padding-bottom:0px;} 
+    
     #section_3 {
-        margin-bottom: 100px;}
+        padding-top:10%;
+        padding-bottom: 10%;
+        margin-bottom:50px;}
+    
+    #section_4 {
+        margin-bottom:50px;}
     
     .image-list{
         transform:translateX(-22%);}
@@ -848,6 +871,18 @@ h1{
      .slide_out_menu_footer{
          margin-top: 40%;
     }
+    
+      .map {
+        top: 25px;
+        max-width: 99%;
+        max-height: 99%;
+    }
+    .footer .col-md-2 {
+        min-width:30%;
+        float: left;
+        margin-top:20px;
+    }
+    
 } 
 @media only screen and (max-width:980px){   
     .image-list{
@@ -858,4 +893,40 @@ h1{
     .image-list{
         transform:translateX(-32%);
     }
-}     
+    
+    .slide_0, .slide_1, .slide_2  {
+        width: 30px;
+        height: 30px;
+        margin: 5%;
+    }
+    
+    #myCarousel .item {
+        padding-top:650px;
+    }
+
+    .slide_0.active, .slide_1.active, .slide_2.active{
+        width: 45px;
+        height: 45px;
+        margin: 5%;
+    }
+    .footer .col-md-2 li{
+    margin-bottom: 10px;}
+}
+
+@media only screen and (max-width:500px){  
+
+    .Starter, .Pro {
+        width: 275px;
+        padding:0 auto;
+        margin:0 auto;}
+    
+    .button_6{
+        width: auto;}
+    
+    .button_4{
+        width: 100%;}
+    
+    .button_5{
+       position: relative;}
+}
+
