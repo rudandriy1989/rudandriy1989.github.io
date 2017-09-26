@@ -823,6 +823,10 @@ h1{
         height: 72px;
         margin: 8%;
     }
+    
+   
+    
+    
 }
 @media only screen and (max-width:1000px){
     .Starter, .Pro {
@@ -869,6 +873,11 @@ h1{
     .navbar-fixed-top .col-xs-4 ul li a:first-child {
         display: none;
     }
+    
+    
+    
+    
+    
      .slide_out_menu_footer{
          margin-top: 40%;
     }
@@ -883,6 +892,7 @@ h1{
         float: left;
         margin-top:20px;
     }
+    
     
 } 
 @media only screen and (max-width:980px){   
@@ -912,6 +922,17 @@ h1{
     }
     .footer .col-md-2 li{
     margin-bottom: 10px;}
+    
+    .navbar-fixed-top .container {
+        background: url("../images/logo.png");
+        background-repeat: no-repeat;
+        background-position: center 5px;
+       
+        overflow: hidden;
+    }
+    .navbar-fixed-top .col-xs-4:nth-child(2) {
+        display: none;
+    }
 }
 
 @media only screen and (max-width:500px){  
