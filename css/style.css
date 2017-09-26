@@ -6,6 +6,7 @@ body {
     text-align: center;
     vertical-align: center;
     word-wrap:break-word;
+    overflow-x:  hidden;
     }
 p{
     color:#8C8F94;
